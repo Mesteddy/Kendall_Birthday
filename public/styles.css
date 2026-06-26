@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+
+  text-align: center;
+
+  background: linear-gradient(135deg, #ffd1dc, #ffe4e1);
+
+  margin: 0;
+
+  padding: 40px;
+}
+
+h1 {
+  font-family: Pacifico, cursive;
+
+  color: #ff69b4;
+
+  font-size: 60px;
+}
+
+h2 {
+  color: #d63384;
+}
+
+.birthday-gallery {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 25px;
+
+  flex-wrap: wrap;
+
+  margin: 40px;
+}
+
+.birthday-item {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.birthday-img {
+  width: 220px;
+
+  height: 280px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.birthday-label {
+  margin-top: 10px;
+
+  font-size: 22px;
+
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 25px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #ff69b4;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 18px;
+}
+
+button:hover {
+  background: #ff1493;
+}
+
+input {
+  padding: 10px;
+
+  font-size: 18px;
+}
+.admin-container {
+  max-width: 700px;
+
+  margin: 50px auto;
+}
+
+.admin-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-card label {
+  display: block;
+
+  margin-top: 20px;
+
+  font-weight: bold;
+
+  text-align: left;
+}
+
+.admin-card input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 8px;
+
+  border-radius: 10px;
+
+  border: 1px solid #ccc;
+
+  font-size: 18px;
+
+  box-sizing: border-box;
+}
+.location-section {
+  margin: 60px auto;
+}
+
+.location-card {
+  background: white;
+
+  width: 500px;
+
+  max-width: 90%;
+
+  margin: auto;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.address {
+  font-size: 22px;
+
+  color: #444;
+
+  margin-bottom: 20px;
+
+  line-height: 1.6;
+}
+
+.map-button {
+  display: inline-block;
+
+  background: #ff69b4;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 14px 25px;
+
+  border-radius: 30px;
+
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+
+.map-button:hover {
+  background: #ff1493;
+}
+.photo-card {
+  display: inline-block;
+
+  width: 220px;
+
+  background: white;
+
+  padding: 15px;
+
+  margin: 15px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-photo {
+  width: 180px;
+
+  height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+}
+
+.photo-card h3 {
+  font-size: 18px;
+
+  margin: 10px 0;
+}

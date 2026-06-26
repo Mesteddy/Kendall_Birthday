@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Birthday Admin</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="admin-container">
+      <h1>🎂 Birthday Website Admin</h1>
+
+      <div class="admin-card">
+        <label> Birthday Title </label>
+
+        <input id="birthdayTitle" type="text" />
+
+        <label> Birthday Date </label>
+
+        <input id="birthdayDate" type="date" />
+
+        <label>Street Address</label>
+        <input id="street" type="text" />
+
+        <label>City</label>
+        <input id="city" type="text" />
+
+        <label>State</label>
+        <input id="state" type="text" />
+
+        <label>ZIP Code</label>
+        <input id="zip" type="text" />
+
+        <label> Wishlist Link </label>
+
+        <input id="wishlist" type="text" />
+        <hr />
+
+        <h2>📸 Manage Birthday Photos</h2>
+
+        <input
+          type="text"
+          id="photoTitle"
+          placeholder="Example: 🎂 Fourth Birthday"
+        />
+
+        <br /><br />
+
+        <input type="file" id="photo" accept="image/*" />
+
+        <br /><br />
+
+        <button onclick="uploadPhoto()">📤 Upload Picture</button>
+
+        <br /><br />
+
+        <div id="photoList"></div>
+
+        <br /><br />
+
+        <button onclick="saveSettings()">💾 Save Settings</button>
+      </div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
