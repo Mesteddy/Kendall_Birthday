@@ -4,6 +4,7 @@ async function loadConfig() {
   const config = await response.json();
 
   document.getElementById("page-title").textContent = config.title;
+  document.getElementById("partyTime").textContent = config.partyTime;
   const fullAddress = `${config.street},
 ${config.city},
 ${config.state}

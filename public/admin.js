@@ -16,6 +16,7 @@ async function loadSettings() {
   document.getElementById("zip").value = config.zip;
 
   document.getElementById("wishlist").value = config.wishlist;
+  document.getElementById("partyTime").value = config.partyTime;
 }
 
 async function saveSettings() {
@@ -23,6 +24,7 @@ async function saveSettings() {
     title: document.getElementById("birthdayTitle").value,
 
     birthdayDate: document.getElementById("birthdayDate").value,
+    partyTime: document.getElementById("partyTime").value,
     street: document.getElementById("street").value,
 
     city: document.getElementById("city").value,
